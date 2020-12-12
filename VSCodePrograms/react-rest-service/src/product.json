@@ -1,0 +1,6 @@
+[
+    {"pid":100,"pname":"Tv","price":120000},
+    {"pid":101,"pname":"Computer","price":250000},
+    {"pid":102,"pname":"Laptop","price":50000},
+    {"pid":103,"pname":"Bike","price":80000}
+]
