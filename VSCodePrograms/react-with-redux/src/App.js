@@ -1,3 +1,4 @@
+import 'App.css';
 import React from 'react';
 import {connect} from 'react-redux'
 import Decrement from './Decrement';
@@ -9,7 +10,7 @@ class App extends React.Component {
   
   render() {
     return(
-    <div>
+    <div className="App">
       <h2>update Salary with Redux</h2>
       <p>Id is {this.props.id}, Name is {this.props.name}, salary is {this.props.salary}</p>
       <input type="button" value="increment" onClick={this.props.increment}/>
